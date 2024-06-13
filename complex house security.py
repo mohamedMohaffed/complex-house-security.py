@@ -31,8 +31,8 @@ def fetch_student_image(student_id):
         return None
 cred = credentials.Certificate("serviceAccountKey.json")
 firebase_admin.initialize_app(cred, {
-    'databaseURL': "https://faceface-f5d7f-default-rtdb.firebaseio.com/",
-    'storageBucket': 'faceface-f5d7f.appspot.com'
+    'databaseURL': "https://your.com/",
+    'storageBucket': 'your.com'
 })
 bucket = storage.bucket()
 
