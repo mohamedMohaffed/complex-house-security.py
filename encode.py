@@ -7,8 +7,8 @@ from firebase_admin import credentials
 from firebase_admin import db
 from firebase_admin import storage
 cred = credentials.Certificate("serviceAccountKey.json")
-firebase_admin.initialize_app(cred,{'databaseURL':"https://faceface-f5d7f-default-rtdb.firebaseio.com/",
-                                    'storageBucket':'faceface-f5d7f.appspot.com'
+firebase_admin.initialize_app(cred,{'databaseURL':"___",
+                                    'storageBucket':'__'
                                     })
 
 #load img student
